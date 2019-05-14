@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">RumbApp</string>
+
+    <!-- Nombres para la plantilla inicio-->
+    <string name="img_inicio">imagen inicio</string>
+
+    <!-- Nombres los botones del Footer-->
+    <string name="btn_facebook">imagen facebook</string>
+    <string name="btn_instagram">imagen instagram</string>
+    <string name="btn_youtube">imagen youtube</string>
+    <string name="btn_twitter">imagen twitter</string>
+
+    <!-- Nombres los botones del inicio-->
+    <string name="btn_reservas">imagen reservas</string>
+    <string name="btn_bares">imagen bares</string>
+    <string name="btn_eventos">imagen eventos</string>
+    <string name="btn_hits">imagen hits</string>
+    <string name="tv_reservas">Reservas</string>
+    <string name="tv_bares">Bares</string>
+    <string name="tv_hits">Hits</string>
+    <string name="tv_eventos">Eventos</string>
+
+
+    <!-- Atributos activity reservas-->
+    <string name="et_nombreR">Nombre de reserva</string>
+    <string name="et_fechaR">Fecha de reserva</string>
+    <string name="btn_fechaR">FECHA</string>
+    <string name="sp_baresR">Bares</string>
+    <string name="et_personasR"># Personas</string>
+    <string name="et_cortesiasR"># Cortesias</string>
+    <string name="tv_listaR">Lista:</string>
+    <string name="et_listaR">Nombres de invitados</string>
+    <string name="img_barR">imagen</string>
+    <string name="sp_promotoresR">Promotores</string>
+    <string name="btn_reservarR">RESERVAR</string>
+
+
+    <!-- Atributos activity reservas2-->
+    <string name="tv_titulo">¡¡GRACIAS POR RESERVAR CON PARTY STATE!!</string>
+    <string name="tv_nombreR"></string>
+    <string name="tv_fechaR"></string>
+    <string name="tv_baresR"></string>
+    <string name="tv_personasR"></string>
+    <string name="tv_promotoresR"></string>
+    <string name="btn_regresar">REGRESAR</string>
+
+    <!-- Nombres los TXT view Sutton ModulO Bares-->
+    <string name="coverS">Cover: 25k</string>
+    <string name="nombreS">Sutton</string>
+    <string name="AmbienteS">Ambiente: Crossover</string>
+    <string name="EdadS">Edad mínima: 18+</string>
+    <string name="beneficiosS">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas que sean
+        •Botella de champaña para cumpliañero/a
+        •Espacio decorado</string>
+
+    <!-- Nombres los TXT view Morena ModulO Bares-->
+    <string name="coverM">Cover: 20k</string>
+    <string name="nombreM">Morena</string>
+    <string name="AmbienteM">Ambiente: 1.Reggaeton nuevo, 2.Reggaeton old school </string>
+    <string name="EdadM">Edad mínima: 18+</string>
+    <string name="beneficiosM">
+        Beneficios:
+        •Entradas gratis dependiendo el número de personas que sean
+        •Botella de champán con vela volcánica
+        •Lugar decorado
+        •fotos para redes sociales
+        •celebración de media noche
+        •Espacio decorado</string>
+
+    <!-- Nombres los TXT view Adicta ModulO Bares-->
+    <string name="coverA">Cover: 20k</string>
+    <string name="nombreA">Adicta</string>
+    <string name="AmbienteA">Ambiente: Crossover</string>
+    <string name="EdadA">Edad mínima: 21+</string>
+    <string name="beneficiosA">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas en total
+        •Decoración de mesa
+        •Fotografo a media noche
+        •Web flyer personalizado con tu  nombre para que compartas en redes  sociales
+        •Pequeña torta
+        •Botella Champaña a media noche
+        •Espacio decorado</string>
+
+
+    <!-- Nombres los TXT view Tierra Bomba ModulO Bares-->
+    <string name="coverT">Cover: 25k</string>
+    <string name="nombreT">Tierra Bomba</string>
+    <string name="AmbienteT">Ambiente: Crossover</string>
+    <string name="EdadT">Edad mínima: 18+</string>
+    <string name="beneficiosT">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas que sean en total
+        •Lugar dentro del bar
+        •Botella de champaña cumpliañero/a
+        •Espacio decorado</string>
+
+    <!-- Nombres los TXT view Cangri ModulO Bares-->
+    <string name="coverC">Cover: 20k</string>
+    <string name="nombreC">Cangri</string>
+    <string name="AmbienteC">Ambiente: Reggaeton y dance hall</string>
+    <string name="EdadC">Edad mínima: 18+</string>
+    <string name="beneficiosC">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas en total
+        •Espacio decorado bombas
+        •Media de aguardiente</string>
+
+    <!-- Nombres los TXT view dELICIA ModulO Bares-->
+    <string name="coverD">Cover: 20k</string>
+    <string name="nombreD">Delicia</string>
+    <string name="AmbienteD">Ambiente: Crossover</string>
+    <string name="EdadD">Edad mínima: 21+</string>
+    <string name="beneficiosD">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas en total
+        •celebración a media noche</string>
+
+
+    <!-- Nombres los TXT view DEMMBOW ModulO Bares-->
+    <string name="coverW">Cover: 20k</string>
+    <string name="nombreW">Dembow</string>
+    <string name="AmbienteW">Ambiente: Reggaeton y dance hall</string>
+    <string name="EdadW">Edad mínima: 18+</string>
+    <string name="beneficiosW">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas en total
+        • Coctel para cumpliañero/a
+        • Reserva de espacio</string>
+
+    <!-- Nombres los TXT view Lio ModulO Bares-->
+    <string name="coverL">Cover: 20k</string>
+    <string name="nombreL">Lio</string>
+    <string name="AmbienteL">Ambiente: Crossover</string>
+    <string name="EdadL">Edad mínima: 18+</string>
+    <string name="beneficiosL">
+        Beneficios:
+        •Entradas gratis dependiendo del número de personas que sean en total
+        •Botella de champaña cumplieañero/a
+        •Lugar dentro del bar
+        •Celebración de media noche</string>
+
+
+    <!-- Nombres los TXT view Vitoria ModulO Bares-->
+    <string name="coverV">Cover: 20k</string>
+    <string name="nombreV">Vitoria</string>
+    <string name="AmbienteV">Ambiente: Crossover</string>
+    <string name="EdadV">Edad mínima: 18+</string>
+    <string name="beneficiosV">
+        Beneficios:
+        •Entradas gratis dependiendo el núnero total de personas
+        •Celebración de media noche con una Champaña
+        •Decoración del espacio</string>
+
+    <!-- Nombres los TXT view Vitoria ModulO Bares-->
+    <string name="ScrollH">Scroll</string>
+
+</resources>

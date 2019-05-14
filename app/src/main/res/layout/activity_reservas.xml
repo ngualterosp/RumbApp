@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reservas">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/layout_vertical"
+        android:layout_width="379dp"
+        android:layout_height="578dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705">
+
+        <EditText
+            android:id="@+id/et_nombreR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/et_nombreR"
+            android:inputType="textPersonName"
+            android:shadowColor="#000000"
+            android:shadowRadius="1"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_fechaR"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/btn_fechaR" />
+
+            <EditText
+                android:id="@+id/et_fechaR"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:ems="10"
+                android:hint="@string/et_fechaR"
+                android:inputType="date"
+                android:shadowColor="#000000"
+                android:shadowRadius="1" />
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/sp_baresR"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:id="@+id/layout_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/et_personasR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/et_personasR"
+                android:inputType="number"
+                android:shadowColor="#000000"
+                android:shadowRadius="1"/>
+
+            <EditText
+                android:id="@+id/et_cortesiasR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="@string/et_cortesiasR"
+                android:inputType="number"
+                android:shadowColor="#000000"
+                android:shadowRadius="1"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_listaR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/tv_listaR"
+            android:shadowColor="#000000"
+            android:shadowRadius="1"/>
+
+        <EditText
+            android:id="@+id/et_listaR"
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:hint="@string/et_listaR"
+            android:inputType="textMultiLine"
+            android:shadowColor="#000000"
+            android:shadowRadius="1" />
+
+        <Spinner
+            android:id="@+id/sp_promotoresR"
+            android:layout_width="match_parent"
+            android:layout_height="47dp" />
+
+        <ImageView
+            android:id="@+id/img_barR"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/partystate"
+            android:contentDescription="@string/img_barR" />
+
+        <Button
+            android:id="@+id/btn_reservarR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="btn_reservas2"
+            android:shadowColor="#000000"
+            android:shadowRadius="1"
+            android:text="@string/btn_reservarR" />
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Reservas2">
+
+    <LinearLayout
+        android:layout_width="285dp"
+        android:layout_height="536dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/layout_redes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_titulo"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_nombreR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/tv_nombreR" />
+
+        <TextView
+            android:id="@+id/tv_fechaR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_fechaR" />
+
+        <TextView
+            android:id="@+id/tv_baresR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_baresR" />
+
+        <TextView
+            android:id="@+id/tv_personasR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_personasR" />
+
+        <TextView
+            android:id="@+id/tv_promotoresR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_promotoresR" />
+
+        <ImageView
+            android:id="@+id/img_reservas2"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:contentDescription="@string/img_inicio"
+            app:srcCompat="@drawable/partystate" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_redes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_instagram"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/instagram"
+            android:contentDescription="@string/btn_instagram"
+            android:onClick="Instagram" />
+
+        <Button
+            android:id="@+id/btn_facebook"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/facebook"
+            android:contentDescription="@string/btn_facebook"
+            android:onClick="Facebook" />
+
+        <Button
+            android:id="@+id/btn_twitter"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/twitter"
+            android:contentDescription="@string/btn_twitter"
+            android:onClick="Twitter" />
+
+        <Button
+            android:id="@+id/btn_youtube"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/youtube"
+            android:contentDescription="@string/btn_youtube"
+            android:onClick="Youtube" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
